@@ -1,0 +1,88 @@
+{
+  "rarityOrder": [
+    "Common",
+    "Short Print",
+    "Super Short Print",
+    "Rare",
+    "Super Rare",
+    "Ultra Rare",
+    "Secret Rare",
+    "Ultra Secret Rare",
+    "Platinum Rare",
+    "Gold Rare",
+    "Premium Gold Rare",
+    "Gold Secret Rare",
+    "Platinum Secret Rare",
+    "Prismatic Secret Rare",
+    "Extra Secret Rare",
+    "Ultimate Rare",
+    "Collector's Rare",
+    "Ghost Rare",
+    "Ghost/Gold Rare",
+    "Starlight Rare",
+    "Quarter Century Secret Rare",
+    "Grand Master Rare"
+  ],
+  "setRarityOrders": {
+    "25th Anniversary Rarity Collection II": [
+      "Super Rare",
+      "Ultra Rare",
+      "Secret Rare",
+      "Platinum Secret Rare",
+      "Collector's Rare",
+      "Ultimate Rare",
+      "Quarter Century Secret Rare"
+    ],
+    "Quarter Century Stampede": [
+      "Super Rare",
+      "Ultra Rare",
+      "Secret Rare",
+      "Platinum Secret Rare",
+      "Collector's Rare",
+      "Ultimate Rare",
+      "Quarter Century Secret Rare"
+    ],
+    "Quarter Century Bonanza": [
+      "Super Rare",
+      "Ultra Rare",
+      "Secret Rare",
+      "Platinum Secret Rare",
+      "Collector's Rare",
+      "Ultimate Rare",
+      "Quarter Century Secret Rare"
+    ]
+  },
+  "setVersionOrders": {
+    "25th Anniversary Rarity Collection": [
+      "Super Rare",
+      "Ultra Rare",
+      "Secret Rare",
+      "Platinum Secret Rare",
+      "Quarter Century Secret Rare",
+      "Collector's Rare",
+      "Ultimate Rare"
+    ]
+  },
+  "sources": [
+    "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Structure-Deck-Zombie-World",
+    "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Structure-Deck-Dragons-Collide",
+    "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Structure-Deck-Gates-of-the-Underworld",
+    "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Structure-Deck-Marik",
+    "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Structure-Deck-HERO-Strike",
+    "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Quarter-Century-Bonanza/Diabellstar-the-Black-Witch-V5-Collectors-Rare",
+    "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Quarter-Century-Bonanza/Diabellstar-the-Black-Witch-V6-Ultimate-Rare",
+    "https://www.cardmarket.com/en/YuGiOh/Products/Singles/25th-Anniversary-Rarity-Collection/Ash-Blossom-Joyous-Spring-V5-Quarter-Century-Secret-Rare",
+    "https://www.cardmarket.com/en/YuGiOh/Products/Singles/25th-Anniversary-Rarity-Collection/Ash-Blossom-Joyous-Spring-V6-Collectors-Rare",
+    "https://www.cardmarket.com/en/YuGiOh/Products/Singles/25th-Anniversary-Rarity-Collection/Ash-Blossom-Joyous-Spring-V7-Ultimate-Rare",
+    "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Legendary-Collection-2-Mega-Pack",
+    "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Legendary-Collection-3-Mega-Pack",
+    "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Legendary-Collection-4-Mega-Pack"
+  ],
+  "setSlugs": {
+    "Zombie World Structure Deck": "Structure-Deck-Zombie-World",
+    "Structure Deck: Marik (TCG)": "Structure-Deck-Marik",
+    "Legendary Collection 2: The Duel Academy Years Mega Pack": "Legendary-Collection-2-Mega-Pack",
+    "Legendary Collection 3: Yugi's World Mega Pack": "Legendary-Collection-3-Mega-Pack",
+    "Legendary Collection 4: Joey's World Mega Pack": "Legendary-Collection-4-Mega-Pack"
+  }
+}

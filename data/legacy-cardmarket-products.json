@@ -1,0 +1,28 @@
+{
+  "Starter Deck: Yugi|Dark Hole|Common": {
+    "setSlug": "Starter-Deck-Yugi",
+    "productSlugs": ["Dark-Hole-V1-Common", "Dark-Hole-V2-Common", "Dark-Hole-V3-Common"],
+    "sources": [
+      "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Starter-Deck-Yugi/Dark-Hole-V1-Common",
+      "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Starter-Deck-Yugi/Dark-Hole-V2-Common",
+      "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Starter-Deck-Yugi/Dark-Hole-V3-Common"
+    ]
+  },
+  "Starter Deck: Yugi|Trap Hole|Common": {
+    "setSlug": "Starter-Deck-Yugi",
+    "productSlugs": ["Trap-Hole-V1-Common", "Trap-Hole-V2-Common", "Trap-Hole-V3-Common"],
+    "sources": [
+      "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Starter-Deck-Yugi/Trap-Hole-V1-Common",
+      "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Starter-Deck-Yugi/Trap-Hole-V2-Common",
+      "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Starter-Deck-Yugi/Trap-Hole-V3-Common"
+    ]
+  },
+  "Starter Deck: Kaiba|Dark Hole|Common": {
+    "setSlug": "Starter-Deck-Kaiba",
+    "productSlugs": ["Dark-Hole-V1-Common", "Dark-Hole-V2-Common"],
+    "sources": [
+      "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Starter-Deck-Kaiba/Dark-Hole-V1-Common",
+      "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Starter-Deck-Kaiba/Dark-Hole-V2-Common"
+    ]
+  }
+}

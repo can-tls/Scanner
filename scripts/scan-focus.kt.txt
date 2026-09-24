@@ -1,0 +1,38 @@
+  private val onScanFocus by EventDispatcher()
+
+  fun scanFocusAt(point: Map<String, Double>) {
+    val requestId = point["id"] ?: 0.0
+    fun report(status: String) {
+      onScanFocus(mapOf("id" to requestId, "status" to status))
+    }
+    val activeCamera = camera ?: run { report("unavailable"); return }
+    val x = point["x"] ?: return
+    val y = point["y"] ?: return
+    if (!x.isFinite() || !y.isFinite() || previewView.width == 0 || previewView.height == 0) {
+      report("unavailable")
+      return
+    }
+    val meteringPoint = previewView.meteringPointFactory.createPoint(
+      (x.coerceIn(0.0, 1.0) * previewView.width).toFloat(),
+      (y.coerceIn(0.0, 1.0) * previewView.height).toFloat()
+    )
+    val action = FocusMeteringAction.Builder(
+      meteringPoint, FocusMeteringAction.FLAG_AF or FocusMeteringAction.FLAG_AE
+    ).setAutoCancelDuration(5, java.util.concurrent.TimeUnit.SECONDS).build()
+    if (!activeCamera.cameraInfo.isFocusMeteringSupported(action)) {
+      report("unsupported")
+      return
+    }
+    try {
+      val future = activeCamera.cameraControl.startFocusAndMetering(action)
+      future.addListener({
+        try {
+          report(if (future.get().isFocusSuccessful) "focused" else "unfocused")
+        } catch (_: Exception) {
+          report("failed")
+        }
+      }, ContextCompat.getMainExecutor(context))
+    } catch (_: Exception) {
+      report("failed")
+    }
+  }

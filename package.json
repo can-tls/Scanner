@@ -3,19 +3,31 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
     "expo": "~54.0.0",
     "expo-camera": "~17.0.10",
     "expo-dev-client": "~6.0.21",
+    "expo-file-system": "~19.0.24",
     "expo-status-bar": "~3.0.9",
     "react": "19.1.0",
     "react-native": "0.81.5",
     "rn-mlkit-ocr": "^0.3.1"
   },
   "scripts": {
+    "postinstall": "node scripts/patch-camera.mjs",
     "start": "expo start",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "test:catalog": "node --test tests/*.test.mjs",
+    "catalog:update": "node scripts/update-catalog.mjs"
+  },
+  "expo": {
+    "autolinking": {
+      "android": {
+        "buildFromSource": ["expo-camera"]
+      }
+    }
   },
   "private": true
 }

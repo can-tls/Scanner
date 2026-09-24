@@ -1,0 +1,28 @@
+{
+  "SDY-001|Mystical Elf|Common": {
+    "setSlug": "Starter-Deck-Yugi",
+    "languageProducts": {
+      "E": "Mystical-Elf-V1-Common",
+      "G": "Mystical-Elf-V1-Common",
+      "none": "Mystical-Elf-V2-Common"
+    },
+    "source": "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Starter-Deck-Yugi/Mystical-Elf-V1-Common",
+    "languageAssignmentSource": "User-confirmed: SDY-E001/SDY-G001 V1, SDY-001 V2",
+    "otherSource": "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Starter-Deck-Yugi/Mystical-Elf-V2-Common"
+  },
+  "SDJ-001|Red-Eyes Black Dragon|Ultra Rare": {
+    "setSlug": "Starter-Deck-Joey",
+    "productSlug": "Red-Eyes-Black-Dragon",
+    "source": "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Starter-Deck-Joey/Red-Eyes-Black-Dragon"
+  },
+  "MZMU-011|Dark Magician of Destruction|Secret Rare": {
+    "setSlug": "Maze-of-Muertos",
+    "productSlug": "Dark-Magician-of-Destruction-V1-Secret-Rare",
+    "source": "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Maze-of-Muertos/Dark-Magician-of-Destruction-V1-Secret-Rare"
+  },
+  "MZMU-011|Dark Magician of Destruction|Collector's Rare": {
+    "setSlug": "Maze-of-Muertos",
+    "productSlug": "Dark-Magician-of-Destruction-V2-Collectors-Rare",
+    "source": "https://www.cardmarket.com/en/YuGiOh/Products/Singles/Maze-of-Muertos/Dark-Magician-of-Destruction-V2-Collectors-Rare"
+  }
+}
